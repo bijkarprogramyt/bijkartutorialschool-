@@ -1,0 +1,42 @@
+$unimar: 0;
+$unipad: 0;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* sens serif font */
+$seriFnt: sans-serif;
+body {
+    font-family: $seriFnt;
+}
+/* center align */
+$cenAln: center;
+/* margin 10px */
+$mrgn: 10px;
+/* head */
+.head {
+    header {
+        h1 {
+            background-color: aqua;
+            margin: $mrgn;
+            text-align: $cenAln;
+            font-size: 18px;
+        }
+    }
+}
+
+/* bich */
+
+.bich {
+    .tutorial {
+        #html_tutorial {
+            width: 100%;
+            max-width: 100px;
+            height: 100vh;
+            max-height: 50px;
+            margin: $mrgn;
+            font-size: 18px;
+        }
+    }
+}
